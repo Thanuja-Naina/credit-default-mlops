@@ -49,7 +49,7 @@ python monitor.py                          # after some predictions: drift check
 ```
 Docker (train first so `models/model.joblib` exists): `docker build -t credit-api . && docker run -p 8000:8000 credit-api`
 
-**Live demo:** _paste your Hugging Face Space link here after deploying (see DEPLOY.md at the top of the portfolio)._
+**Live demo:** https://credit-default-mlops-4gztrvexadybz3m3x5vhfv.streamlit.app/?utm_source=chatgpt.com
 
 ## Results (fill in from `results/metrics.json` after your real run)
 
