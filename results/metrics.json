@@ -1,0 +1,12 @@
+{
+  "model": "xgboost",
+  "test_metrics": {
+    "roc_auc": 0.7733,
+    "precision": 0.5234,
+    "recall": 0.5479,
+    "f1": 0.5353,
+    "defaulters_caught_pct": 54.8,
+    "illustrative_cost_reduction_pct": 52.3
+  },
+  "data": "data/UCI_Credit_Card.csv"
+}
